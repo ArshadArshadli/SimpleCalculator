@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+input {
+	border: 1px solid green;
+	display: block;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+input:focus {
+	border-color: crimson;
+	outline: none;
+}
+
+button{
+	border: 1px solid green;
+	background-color: transparent;
+	color: green;
+	font-size: 25px;
+	
+}
+
+
+button:active
+ {
+
+ 	outline: none;
+	transform: scale(1.01);
+	border-color: crimson;
+	color: crimson;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+.function-buttons button {
+	height: 2rem;
+	width: 2rem;
+	
+
+}
+
+.hesab-btn {
+	margin-top: 20px;
+}
+.cavab_text
+{
+
+	margin-top: 5px;	
+	font-size: 25px;
+	display: inline-block;
+
+}
